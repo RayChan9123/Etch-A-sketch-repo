@@ -1,0 +1,19 @@
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 10px;
+    border-color: red;
+    height: 288px;
+    width: 288px;
+    padding: 0;
+}
+
+.smallGrids
+{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border: solid 1px;
+    border-color: blue;
+}
