@@ -14,12 +14,24 @@
     </div>
     <div class = main>
         <div class ="buttons">
-            <button>Clear</button>
+            <button id="sizeBtn">Number of squares per side</button>
+            <button id="clearBtn">Clear</button>
             <input id="sizeSleder" type = "range" min="1" max="64">
         </div>
-        <div class = "container">
+        <div class = "container" id = "container">
         </div>
     </div>
-    
+    <footer>
+        <p>
+            <i>
+                Copyright @ 
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Ray Chan 
+            </i>
+        </p>
+        <a href="https://github.com/RayChan9123" target="_blank">github</a>
+    </footer>
 </body>
 </html>
